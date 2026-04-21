@@ -35,7 +35,7 @@
 - **Arquivos afetados:** `Sources/Core/Logging/AuditLog.swift`
 - **Dependências:** T-004
 - **Definição de pronto:** Eventos de auditoria com formato previsível e pronto para persistência.
-- **Status:** todo
+- **Status:** done
 
 ## T-006 — SessionState
 - **Objetivo:** Modelar estado de sessão com fronteiras claras de mutação.
