@@ -1,1 +1,9 @@
-{}
+{
+  "model": {
+    "provider": "apple-foundation",
+    "name": "foundation-default"
+  },
+  "mcp": {
+    "serversFile": "mcp-servers.json"
+  }
+}
