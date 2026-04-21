@@ -2,6 +2,6 @@ import Logging
 
 public enum Log {
     public static func bootstrap() {
-        LoggingSystem.bootstrap(StreamLogHandler.standardOutput)
+        LoggingSystem.bootstrap(StreamLogHandler.standardError)
     }
 }
