@@ -12,6 +12,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-log", from: "1.12.0"),
         .package(url: "https://github.com/modelcontextprotocol/swift-sdk", from: "0.12.0"),
         .package(url: "https://github.com/stephencelis/SQLite.swift", from: "0.15.4"),
+        .package(url: "https://github.com/swiftlang/swift-testing.git", from: "6.1.2"),
     ],
     targets: [
         .executableTarget(
@@ -34,6 +35,12 @@ let package = Package(
             ]
         ),
         .target(name: "TUI", dependencies: ["Core"]),
-        .testTarget(name: "CoreTests", dependencies: ["Core"]),
+        .testTarget(
+            name: "CoreTests",
+            dependencies: [
+                "Core",
+                .product(name: "Testing", package: "swift-testing"),
+            ]
+        ),
     ]
 )

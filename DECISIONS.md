@@ -87,3 +87,11 @@ Integrações SSH/iMessage podem evoluir depois sem bloquear marcos essenciais.
 A T-003 exigiu fronteiras explícitas entre defaults embutidos, configuração local e composição do kernel, evitando duplicação de parsing e ambiguidade sobre onde a configuração efetiva é definida.
 ### Consequência
 `ConfigStore` deixa de ser um store genérico de JSON e passa a ser especializado em `AppConfiguration`; `AppKernel.init` passa a ser `throws` por depender da resolução da configuração.
+
+## 2026-04-21
+### Decisão
+O target de testes passa a depender explicitamente do pacote oficial `swift-testing`.
+### Contexto
+No ambiente atual com Command Line Tools, o módulo `Testing` não estava disponível implicitamente para `swift test`, impedindo a validação obrigatória do repositório mesmo com o código principal compilando normalmente.
+### Consequência
+Os testes ficam portáveis e executáveis de forma previsível no ambiente atual sem exigir instalação de Xcode completo nem alterar a camada de produção.
