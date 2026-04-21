@@ -70,3 +70,7 @@ Formato mínimo:
 - Decisão
 - Contexto
 - Consequência
+
+## Convenção de resources
+- Resources usados por código Swift devem viver dentro do target correspondente (ex.: `Sources/Core/Resources/...`).
+- Resources devem ser declarados no `Package.swift` quando forem efetivamente consumidos pelo build.

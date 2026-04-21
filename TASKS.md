@@ -18,7 +18,7 @@
 
 ## T-003 — Defaults
 - **Objetivo:** Consolidar valores padrão e fallback de configuração.
-- **Arquivos afetados:** `Sources/Core/Config/Defaults.swift`, `Resources/default-config.json`
+- **Arquivos afetados:** `Sources/Core/Config/Defaults.swift`, `Sources/Core/Resources/default-config.json`
 - **Dependências:** T-002
 - **Definição de pronto:** Defaults centralizados e alinhados ao config padrão do projeto.
 - **Status:** todo
@@ -85,14 +85,14 @@
 
 ### T-003.2 — Definir interfaces mínimas
 - **Objetivo:** Padronizar protocolos/assinaturas mínimas para evolução incremental.
-- **Arquivos afetados:** mesmos de T-003.1 (e arquivos core estritamente necessários)
+- **Arquivos afetados:** mesmos de T-003.1
 - **Dependências:** T-003.1
 - **Definição de pronto:** Interfaces estáveis sem implementação extra além do necessário.
 - **Status:** todo
 
 ### T-003.3 — Implementar bootstrap de configuração
 - **Objetivo:** Garantir caminho único de carga de defaults + configuração local.
-- **Arquivos afetados:** `Sources/Core/Config/ConfigStore.swift`, `Sources/Core/Config/Defaults.swift`, `Resources/default-config.json`
+- **Arquivos afetados:** `Sources/Core/Config/ConfigStore.swift`, `Sources/Core/Config/Defaults.swift`, `Sources/Core/Resources/default-config.json`
 - **Dependências:** T-003.2
 - **Definição de pronto:** Bootstrap previsível com fallback explícito.
 - **Status:** todo

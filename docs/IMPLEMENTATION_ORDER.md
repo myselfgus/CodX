@@ -107,7 +107,7 @@
   - `Sources/Core/MCP/MCPProcessHost.swift`
   - `Sources/Core/MCP/MCPToolAdapter.swift`
   - `Sources/AgenticCLI/Commands/MCPCommand.swift`
-  - `Resources/mcp-servers.example.json`
+  - `Sources/Core/Resources/mcp-servers.example.json`
 - **Critérios de aceite:** Servidores MCP registráveis e consumíveis no fluxo principal via stdio.
 - **Comandos de validação:**
   - `swift build`
@@ -117,7 +117,7 @@
 - **Objetivo:** Fechar gaps de qualidade, DX e documentação final.
 - **Arquivos-alvo:**
   - `README.md`
-  - `Docs/TODOs/*`
+  - `docs/TODOs/*`
   - arquivos de testes e documentação relacionados
 - **Critérios de aceite:** Documentação coerente com comportamento atual e backlog atualizado.
 - **Comandos de validação:**
