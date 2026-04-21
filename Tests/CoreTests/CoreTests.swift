@@ -18,6 +18,59 @@ struct CoreTests {
         #expect(typedLogger.logLevel == .info)
     }
 
+    @Test func auditLogRecordsPredictableEvents() {
+        var auditLog = AuditLog()
+        let expectedID = UUID(uuidString: "AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE")!
+        let expectedTimestamp = Date(timeIntervalSince1970: 1_715_000_000)
+
+        let event = auditLog.record(
+            category: .tool,
+            action: "execute",
+            subject: "shell.ls",
+            metadata: ["exit_code": "0", "session_id": "s-123"],
+            timestamp: expectedTimestamp,
+            id: expectedID
+        )
+
+        #expect(event.schemaVersion == 1)
+        #expect(event.id == expectedID)
+        #expect(event.timestamp == expectedTimestamp)
+        #expect(event.category == .tool)
+        #expect(event.action == "execute")
+        #expect(event.subject == "shell.ls")
+        #expect(event.metadata == ["exit_code": "0", "session_id": "s-123"])
+        #expect(auditLog.events == [event])
+    }
+
+    @Test func auditEventIsCodableWithStableShape() throws {
+        let event = AuditEvent(
+            id: UUID(uuidString: "11111111-2222-3333-4444-555555555555")!,
+            timestamp: Date(timeIntervalSince1970: 1_700_000_000),
+            category: .session,
+            action: "started",
+            subject: "session-abc",
+            metadata: ["source": "cli"]
+        )
+
+        let encoder = JSONEncoder()
+        encoder.outputFormatting = [.sortedKeys]
+        encoder.dateEncodingStrategy = .iso8601
+
+        let encoded = try encoder.encode(event)
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .iso8601
+        let decoded = try decoder.decode(AuditEvent.self, from: encoded)
+
+        #expect(decoded == event)
+
+        let json = String(decoding: encoded, as: UTF8.self)
+        #expect(json.contains("\"schemaVersion\":"))
+        #expect(json.contains("\"category\":\"session\""))
+        #expect(json.contains("\"action\":\"started\""))
+        #expect(json.contains("\"subject\":\"session-abc\""))
+        #expect(json.contains("\"metadata\":{"))
+    }
+
     @Test func kernelBootstrapsWithBundledDefaultsWhenLocalConfigIsMissing() throws {
         let sessionManager = SessionManager()
         let configURL = FileManager.default.temporaryDirectory
