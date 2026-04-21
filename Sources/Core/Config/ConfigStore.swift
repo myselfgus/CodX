@@ -33,9 +33,28 @@ public struct ConfigStore: Sendable {
         self.fileURL = fileURL
     }
 
-    public func load<Configuration: Decodable>(_ type: Configuration.Type) throws -> Configuration {
-        let data = try readData()
+    public func bootstrap(defaults: Defaults) throws -> AppConfiguration {
+        guard FileManager.default.fileExists(atPath: fileURL.path) else {
+            return try defaults.loadConfiguration()
+        }
 
+        return try load()
+    }
+
+    public func load() throws -> AppConfiguration {
+        let data = try readData()
+        return try decode(AppConfiguration.self, from: data)
+    }
+
+    public func persist(_ configuration: AppConfiguration) throws {
+        let data = try encode(configuration)
+        try write(data)
+    }
+
+    private func decode<Configuration: Decodable>(
+        _ type: Configuration.Type,
+        from data: Data
+    ) throws -> Configuration {
         do {
             return try JSONDecoder().decode(Configuration.self, from: data)
         } catch {
@@ -43,14 +62,15 @@ public struct ConfigStore: Sendable {
         }
     }
 
-    public func persist<Configuration: Encodable>(_ configuration: Configuration) throws {
-        let data: Data
+    private func encode<Configuration: Encodable>(_ configuration: Configuration) throws -> Data {
         do {
-            data = try JSONEncoder().encode(configuration)
+            return try JSONEncoder().encode(configuration)
         } catch {
             throw StoreError.encodeFailed(fileURL, error.localizedDescription)
         }
+    }
 
+    private func write(_ data: Data) throws {
         do {
             let directoryURL = fileURL.deletingLastPathComponent()
             try FileManager.default.createDirectory(

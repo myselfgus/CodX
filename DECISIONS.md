@@ -79,3 +79,11 @@ SSH e iMessage fora do caminho crítico.
 Escopo inicial foca núcleo de sessão, persistência, providers e experiência principal.
 ### Consequência
 Integrações SSH/iMessage podem evoluir depois sem bloquear marcos essenciais.
+
+## 2026-04-21
+### Decisão
+`AppKernel` passa a expor a configuração já resolvida, com bootstrap de configuração executado via `ConfigStore.bootstrap(defaults:)`; `Defaults` lê o config padrão embutido e `ConfigStore` se torna o único ponto de resolução da configuração efetiva (config local + fallback).
+### Contexto
+A T-003 exigiu fronteiras explícitas entre defaults embutidos, configuração local e composição do kernel, evitando duplicação de parsing e ambiguidade sobre onde a configuração efetiva é definida.
+### Consequência
+`ConfigStore` deixa de ser um store genérico de JSON e passa a ser especializado em `AppConfiguration`; `AppKernel.init` passa a ser `throws` por depender da resolução da configuração.
