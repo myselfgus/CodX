@@ -14,7 +14,7 @@
 - **Arquivos afetados:** `Sources/Core/Config/ConfigStore.swift`
 - **Dependências:** T-001
 - **Definição de pronto:** ConfigStore expõe API clara para carregar e persistir config sem duplicação de parsing.
-- **Status:** todo
+- **Status:** done
 
 ## T-003 — Defaults
 - **Objetivo:** Consolidar valores padrão e fallback de configuração.
