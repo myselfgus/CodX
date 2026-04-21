@@ -28,6 +28,9 @@ let package = Package(
                 .product(name: "Logging", package: "swift-log"),
                 .product(name: "SQLite", package: "SQLite.swift"),
                 .product(name: "MCP", package: "swift-sdk"),
+            ],
+            resources: [
+                .process("Resources"),
             ]
         ),
         .target(name: "TUI", dependencies: ["Core"]),
