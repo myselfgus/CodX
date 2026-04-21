@@ -24,6 +24,7 @@ public enum FinishReason: Sendable {
 public struct ToolCall: Sendable {
     public let id: String
     public let name: String
+    public let arguments: JSONValue
 }
 
 public enum ProviderEvent: Sendable {
