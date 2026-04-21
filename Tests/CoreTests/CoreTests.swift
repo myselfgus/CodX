@@ -3,6 +3,21 @@ import Testing
 import Foundation
 
 struct CoreTests {
+    @Test func logBuildsUsableOperationalLogger() {
+        Log.bootstrap()
+        Log.bootstrap()
+
+        var scopedLogger = Log.logger(scope: "session")
+        scopedLogger.logLevel = .debug
+        scopedLogger[metadataKey: "session.id"] = "abc123"
+
+        let typedLogger = Log.logger(for: SessionManager.self)
+
+        #expect(scopedLogger.logLevel == .debug)
+        #expect(scopedLogger[metadataKey: "session.id"] == "abc123")
+        #expect(typedLogger.logLevel == .info)
+    }
+
     @Test func kernelBootstrapsWithBundledDefaultsWhenLocalConfigIsMissing() throws {
         let sessionManager = SessionManager()
         let configURL = FileManager.default.temporaryDirectory

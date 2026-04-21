@@ -28,7 +28,7 @@
 - **Arquivos afetados:** `Sources/Core/Logging/Log.swift`
 - **Dependências:** T-001
 - **Definição de pronto:** API de log consistente, sem acoplamento indevido com camadas externas.
-- **Status:** todo
+- **Status:** done
 
 ## T-005 — AuditLog
 - **Objetivo:** Estruturar trilha de auditoria para eventos relevantes de sessão/ferramentas.
