@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/NIOFileSystem.build/primary.swiftdeps"
+  },
+  "/Users/gustavomendesesilva/CodX/.build/checkouts/swift-nio/Sources/NIOFileSystem/Exports.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/NIOFileSystem.build/Exports.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/NIOFileSystem.build/Exports.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/NIOFileSystem.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/NIOFileSystem.build/Exports.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/NIOFileSystem.build/Exports.dia"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/primary.swiftdeps"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/TUI/ANSI/ANSI.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/ANSI.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/ANSI.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/ANSI~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/ANSI.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/ANSI.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/TUI/ANSI/DiffRenderer.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/DiffRenderer.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/DiffRenderer.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/DiffRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/DiffRenderer.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/DiffRenderer.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/TUI/Components/InputView.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/InputView.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/InputView.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/InputView~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/InputView.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/InputView.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/TUI/Components/StatusBar.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/StatusBar.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/StatusBar.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/StatusBar~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/StatusBar.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/StatusBar.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/TUI/Components/TaskOverlay.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TaskOverlay.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TaskOverlay.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TaskOverlay~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TaskOverlay.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TaskOverlay.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/TUI/Components/TranscriptView.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TranscriptView.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TranscriptView.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TranscriptView~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TranscriptView.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TranscriptView.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/TUI/InputLoop.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/InputLoop.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/InputLoop.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/InputLoop~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/InputLoop.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/InputLoop.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/TUI/Renderer.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/Renderer.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/Renderer.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/Renderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/Renderer.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/Renderer.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/TUI/ScreenState.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/ScreenState.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/ScreenState.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/ScreenState~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/ScreenState.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/ScreenState.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/TUI/TerminalApp.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TerminalApp.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TerminalApp.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TerminalApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TerminalApp.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/TUI.build/TerminalApp.dia"
+  }
+}

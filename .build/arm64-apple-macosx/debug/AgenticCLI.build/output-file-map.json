@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/primary.swiftdeps"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/AgenticCLI/Commands/AuthCommand.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/AuthCommand.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/AuthCommand.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/AuthCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/AuthCommand.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/AuthCommand.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/AgenticCLI/Commands/ChatCommand.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/ChatCommand.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/ChatCommand.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/ChatCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/ChatCommand.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/ChatCommand.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/AgenticCLI/Commands/MCPCommand.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/MCPCommand.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/MCPCommand.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/MCPCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/MCPCommand.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/MCPCommand.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/AgenticCLI/Commands/ModelCommand.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/ModelCommand.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/ModelCommand.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/ModelCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/ModelCommand.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/ModelCommand.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/AgenticCLI/Commands/RunCommand.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/RunCommand.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/RunCommand.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/RunCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/RunCommand.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/RunCommand.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/AgenticCLI/Commands/SessionCommand.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/SessionCommand.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/SessionCommand.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/SessionCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/SessionCommand.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/SessionCommand.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/Sources/AgenticCLI/main.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/main.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/main.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/main.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/AgenticCLI.build/main.dia"
+  }
+}

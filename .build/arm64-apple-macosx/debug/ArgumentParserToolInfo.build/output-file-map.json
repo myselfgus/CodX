@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/primary.swiftdeps"
+  },
+  "/Users/gustavomendesesilva/CodX/.build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo/ToolInfo.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.dia"
+  }
+}

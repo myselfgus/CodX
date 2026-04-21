@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/MCPConformanceServer.build/primary.swiftdeps"
+  },
+  "/Users/gustavomendesesilva/CodX/.build/checkouts/swift-sdk/Sources/MCPConformance/Server/HTTPApp.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/MCPConformanceServer.build/HTTPApp.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/MCPConformanceServer.build/HTTPApp.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/MCPConformanceServer.build/HTTPApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/MCPConformanceServer.build/HTTPApp.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/MCPConformanceServer.build/HTTPApp.dia"
+  },
+  "/Users/gustavomendesesilva/CodX/.build/checkouts/swift-sdk/Sources/MCPConformance/Server/main.swift": {
+    "dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/MCPConformanceServer.build/main.d",
+    "object": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/MCPConformanceServer.build/main.swift.o",
+    "swiftmodule": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/MCPConformanceServer.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/MCPConformanceServer.build/main.swiftdeps",
+    "diagnostics": "/Users/gustavomendesesilva/CodX/.build/arm64-apple-macosx/debug/MCPConformanceServer.build/main.dia"
+  }
+}
