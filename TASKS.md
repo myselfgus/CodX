@@ -81,11 +81,7 @@
 - **Arquivos afetados:** `Sources/Core/AppKernel.swift`, `Sources/Core/Config/ConfigStore.swift`, `Sources/Core/Config/Defaults.swift`
 - **Dependências:** T-001
 - **Definição de pronto:** Lista objetiva de contratos e lacunas registrada na própria issue/tarefa.
-- **Notas do inventário:**
-  - `Defaults` existia sem contrato funcional, sem leitura de resource e sem expor configuração padrão do projeto.
-  - `ConfigStore` já persistia e carregava JSON, mas com API genérica sem semântica clara de bootstrap nem fallback para defaults.
-  - `AppKernel` apenas compunha dependências; não resolvia configuração efetiva e, portanto, deixava a fronteira entre defaults e config local ambígua.
-  - A lacuna principal era a ausência de um tipo de configuração explícito e de um caminho único para resolver `default-config.json` + `config.json`.
+- **Nota curta:** o inventário identificou a ausência de um tipo explícito de configuração e de um caminho único para resolver `default-config.json` + `config.json`, além de fronteiras ambíguas entre `Defaults`, `ConfigStore` e `AppKernel`.
 - **Status:** done
 
 ### T-003.2 — Definir interfaces mínimas
