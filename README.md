@@ -1,4 +1,4 @@
-# AgenticCLI
+# CodX AgenticCLI
 
 Scaffold inicial do projeto `agentic` em Swift nativo com SwiftPM, preparado para evolução por fases (Fase 0, Fase 1, Fase 2/v1.0).
 
