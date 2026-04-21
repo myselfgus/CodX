@@ -9,11 +9,11 @@ struct ModelCommand: AsyncParsableCommand {
 
 extension ModelCommand {
     struct List: AsyncParsableCommand {
-        mutating func run() async throws { print("TODO: model list") }
+        mutating func run() async throws {}
     }
 
     struct Refresh: AsyncParsableCommand {
         @Option(name: .shortAndLong) var provider: String?
-        mutating func run() async throws { print("TODO: model refresh \(provider ?? "all")") }
+        mutating func run() async throws {}
     }
 }

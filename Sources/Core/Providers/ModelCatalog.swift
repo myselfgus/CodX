@@ -1,3 +1,3 @@
-public struct ModelCatalog {
+public struct ModelCatalog: Sendable {
     public init() {}
 }

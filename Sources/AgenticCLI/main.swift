@@ -1,9 +1,9 @@
 import ArgumentParser
 
-struct Agentic: AsyncParsableCommand {
+struct CodXCLI: AsyncParsableCommand {
     static let configuration = CommandConfiguration(
-        commandName: "agentic",
-        abstract: "Agentic CLI: multi-provider coding assistant in Swift.",
+        commandName: "codx",
+        abstract: "CodX command line interface.",
         subcommands: [
             ChatCommand.self,
             RunCommand.self,
@@ -15,4 +15,4 @@ struct Agentic: AsyncParsableCommand {
     )
 }
 
-Agentic.main()
+CodXCLI.main()

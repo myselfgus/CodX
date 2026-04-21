@@ -1,3 +1,3 @@
-public struct Renderer {
+public struct Renderer: Sendable {
     public init() {}
 }

@@ -1,3 +1,3 @@
-public struct ModelCacheRepo {
+public struct ModelCacheRepo: Sendable {
     public init() {}
 }

@@ -1,4 +1,3 @@
-public struct ProcessExecutor {
+public struct ProcessExecutor: Sendable {
     public init() {}
-    // TODO: Foundation.Process streaming + timeout + cancellation.
 }

@@ -1,1 +1,3 @@
-// TODO: concrete tool shared helpers and schema utilities.
+public protocol Tool: Sendable {
+    var name: String { get }
+}

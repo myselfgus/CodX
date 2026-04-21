@@ -1,3 +1,3 @@
-public struct PTYExecutor {
+public struct PTYExecutor: Sendable {
     public init() {}
 }

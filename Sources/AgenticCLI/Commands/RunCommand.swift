@@ -6,7 +6,5 @@ struct RunCommand: AsyncParsableCommand {
     @Argument(help: "Prompt to execute.")
     var prompt: String
 
-    mutating func run() async throws {
-        print("TODO: execute prompt -> \(prompt)")
-    }
+    mutating func run() async throws {}
 }

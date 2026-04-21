@@ -1,4 +1,3 @@
-public struct KeychainService {
+public struct KeychainService: Sendable {
     public init() {}
-    // TODO: Security.framework implementation for provider secrets.
 }

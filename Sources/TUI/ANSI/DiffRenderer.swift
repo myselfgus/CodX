@@ -1,3 +1,3 @@
-public struct DiffRenderer {
+public struct DiffRenderer: Sendable {
     public init() {}
 }

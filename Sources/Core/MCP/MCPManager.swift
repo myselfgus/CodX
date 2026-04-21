@@ -1,3 +1,3 @@
-public struct MCPManager {
+public actor MCPManager {
     public init() {}
 }

@@ -1,9 +1,7 @@
 import ArgumentParser
 
 struct ChatCommand: AsyncParsableCommand {
-    static let configuration = CommandConfiguration(abstract: "Start interactive chat (TUI).")
+    static let configuration = CommandConfiguration(abstract: "Start interactive chat mode.")
 
-    mutating func run() async throws {
-        print("TODO: launch TUI interactive mode")
-    }
+    mutating func run() async throws {}
 }

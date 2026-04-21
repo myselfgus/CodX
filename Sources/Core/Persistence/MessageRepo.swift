@@ -1,3 +1,3 @@
-public struct MessageRepo {
+public struct MessageRepo: Sendable {
     public init() {}
 }

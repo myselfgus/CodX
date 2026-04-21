@@ -1,3 +1,3 @@
-public struct ScreenState {
+public struct ScreenState: Sendable {
     public init() {}
 }

@@ -1,1 +1,3 @@
-// TODO: concrete provider shared helpers and request/response DTOs.
+public protocol LLMProvider: Sendable {
+    var id: String { get }
+}
