@@ -1,3 +1,3 @@
-public struct MCPToolAdapter {
+public struct MCPToolAdapter: Sendable {
     public init() {}
 }

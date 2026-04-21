@@ -1,3 +1,3 @@
-public struct StatusBar {
+public struct StatusBar: Sendable {
     public init() {}
 }

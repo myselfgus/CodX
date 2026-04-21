@@ -1,9 +1,7 @@
 import Core
 
-public struct TerminalApp {
+public struct TerminalApp: Sendable {
     public init() {}
 
-    public func run() {
-        // TODO: ANSI renderer + input loop + status bar.
-    }
+    public func run() {}
 }

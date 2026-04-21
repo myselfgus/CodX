@@ -1,3 +1,3 @@
-public struct MCPProcessHost {
+public struct MCPProcessHost: Sendable {
     public init() {}
 }

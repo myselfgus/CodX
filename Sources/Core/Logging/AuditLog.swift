@@ -1,3 +1,3 @@
-public struct AuditLog {
+public struct AuditLog: Sendable {
     public init() {}
 }

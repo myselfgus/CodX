@@ -10,15 +10,15 @@ struct AuthCommand: AsyncParsableCommand {
 extension AuthCommand {
     struct Add: AsyncParsableCommand {
         @Argument var provider: String
-        mutating func run() async throws { print("TODO: auth add \(provider)") }
+        mutating func run() async throws {}
     }
 
     struct Remove: AsyncParsableCommand {
         @Argument var provider: String
-        mutating func run() async throws { print("TODO: auth remove \(provider)") }
+        mutating func run() async throws {}
     }
 
     struct List: AsyncParsableCommand {
-        mutating func run() async throws { print("TODO: auth list") }
+        mutating func run() async throws {}
     }
 }

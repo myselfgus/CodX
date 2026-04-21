@@ -1,3 +1,3 @@
-public struct Defaults {
+public struct Defaults: Sendable {
     public init() {}
 }

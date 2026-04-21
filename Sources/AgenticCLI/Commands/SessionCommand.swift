@@ -9,11 +9,11 @@ struct SessionCommand: AsyncParsableCommand {
 
 extension SessionCommand {
     struct List: AsyncParsableCommand {
-        mutating func run() async throws { print("TODO: session list") }
+        mutating func run() async throws {}
     }
 
     struct Resume: AsyncParsableCommand {
         @Argument var id: String
-        mutating func run() async throws { print("TODO: session resume \(id)") }
+        mutating func run() async throws {}
     }
 }

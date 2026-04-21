@@ -1,3 +1,3 @@
-public struct SecretResolver {
+public struct SecretResolver: Sendable {
     public init() {}
 }

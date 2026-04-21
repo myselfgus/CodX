@@ -1,3 +1,3 @@
-public struct CostEstimator {
+public struct CostEstimator: Sendable {
     public init() {}
 }

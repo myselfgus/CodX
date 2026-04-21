@@ -1,3 +1,3 @@
-public struct ConfigStore {
+public struct ConfigStore: Sendable {
     public init() {}
 }

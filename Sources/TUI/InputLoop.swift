@@ -1,3 +1,3 @@
-public struct InputLoop {
+public struct InputLoop: Sendable {
     public init() {}
 }

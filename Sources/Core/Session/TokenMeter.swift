@@ -1,3 +1,3 @@
-public struct TokenMeter {
+public struct TokenMeter: Sendable {
     public init() {}
 }

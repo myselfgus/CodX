@@ -1,3 +1,3 @@
-public struct ProcessEvent {
+public struct ProcessEvent: Sendable {
     public init() {}
 }

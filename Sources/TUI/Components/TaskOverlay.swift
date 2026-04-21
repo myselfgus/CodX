@@ -1,3 +1,3 @@
-public struct TaskOverlay {
+public struct TaskOverlay: Sendable {
     public init() {}
 }

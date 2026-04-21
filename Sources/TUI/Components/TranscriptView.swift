@@ -1,3 +1,3 @@
-public struct TranscriptView {
+public struct TranscriptView: Sendable {
     public init() {}
 }

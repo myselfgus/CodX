@@ -1,4 +1,3 @@
-public struct Database {
+public actor Database {
     public init() {}
-    // TODO: initialize SQLite and migrations.
 }

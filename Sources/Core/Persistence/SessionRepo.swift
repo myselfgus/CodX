@@ -1,3 +1,3 @@
-public struct SessionRepo {
+public struct SessionRepo: Sendable {
     public init() {}
 }

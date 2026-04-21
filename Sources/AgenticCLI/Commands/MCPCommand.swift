@@ -9,15 +9,15 @@ struct MCPCommand: AsyncParsableCommand {
 
 extension MCPCommand {
     struct List: AsyncParsableCommand {
-        mutating func run() async throws { print("TODO: mcp list") }
+        mutating func run() async throws {}
     }
 
     struct Add: AsyncParsableCommand {
-        mutating func run() async throws { print("TODO: mcp add") }
+        mutating func run() async throws {}
     }
 
     struct Test: AsyncParsableCommand {
         @Argument var name: String
-        mutating func run() async throws { print("TODO: mcp test \(name)") }
+        mutating func run() async throws {}
     }
 }

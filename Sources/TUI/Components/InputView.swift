@@ -1,3 +1,3 @@
-public struct InputView {
+public struct InputView: Sendable {
     public init() {}
 }
