@@ -21,7 +21,7 @@
 - **Arquivos afetados:** `Sources/Core/Config/Defaults.swift`, `Sources/Core/Resources/default-config.json`
 - **Dependências:** T-002
 - **Definição de pronto:** Defaults centralizados e alinhados ao config padrão do projeto.
-- **Status:** todo
+- **Status:** done
 
 ## T-004 — Log
 - **Objetivo:** Definir logging operacional básico para fluxos principais.
@@ -81,32 +81,37 @@
 - **Arquivos afetados:** `Sources/Core/AppKernel.swift`, `Sources/Core/Config/ConfigStore.swift`, `Sources/Core/Config/Defaults.swift`
 - **Dependências:** T-001
 - **Definição de pronto:** Lista objetiva de contratos e lacunas registrada na própria issue/tarefa.
-- **Status:** todo
+- **Notas do inventário:**
+  - `Defaults` existia sem contrato funcional, sem leitura de resource e sem expor configuração padrão do projeto.
+  - `ConfigStore` já persistia e carregava JSON, mas com API genérica sem semântica clara de bootstrap nem fallback para defaults.
+  - `AppKernel` apenas compunha dependências; não resolvia configuração efetiva e, portanto, deixava a fronteira entre defaults e config local ambígua.
+  - A lacuna principal era a ausência de um tipo de configuração explícito e de um caminho único para resolver `default-config.json` + `config.json`.
+- **Status:** done
 
 ### T-003.2 — Definir interfaces mínimas
 - **Objetivo:** Padronizar protocolos/assinaturas mínimas para evolução incremental.
 - **Arquivos afetados:** mesmos de T-003.1
 - **Dependências:** T-003.1
 - **Definição de pronto:** Interfaces estáveis sem implementação extra além do necessário.
-- **Status:** todo
+- **Status:** done
 
 ### T-003.3 — Implementar bootstrap de configuração
 - **Objetivo:** Garantir caminho único de carga de defaults + configuração local.
 - **Arquivos afetados:** `Sources/Core/Config/ConfigStore.swift`, `Sources/Core/Config/Defaults.swift`, `Sources/Core/Resources/default-config.json`
 - **Dependências:** T-003.2
 - **Definição de pronto:** Bootstrap previsível com fallback explícito.
-- **Status:** todo
+- **Status:** done
 
 ### T-003.4 — Integrar com AppKernel
 - **Objetivo:** Conectar configuração no kernel sem vazamento de responsabilidade.
 - **Arquivos afetados:** `Sources/Core/AppKernel.swift`
 - **Dependências:** T-003.3
 - **Definição de pronto:** Kernel sobe com ConfigStore/Defaults sem lógica duplicada.
-- **Status:** todo
+- **Status:** done
 
 ### T-003.5 — Validar e estabilizar
 - **Objetivo:** Assegurar regressão zero da issue #3.
 - **Arquivos afetados:** `Tests/CoreTests/CoreTests.swift` (se necessário)
 - **Dependências:** T-003.4
 - **Definição de pronto:** `swift build` e `swift test` verdes; issue #3 com checklist concluído.
-- **Status:** todo
+- **Status:** done
