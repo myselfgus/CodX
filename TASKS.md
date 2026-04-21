@@ -7,7 +7,7 @@
 - **Arquivos afetados:** `Sources/Core/AppKernel.swift`
 - **Dependências:** nenhuma
 - **Definição de pronto:** AppKernel constrói dependências core sem lógica implícita fora de sua responsabilidade; `swift build` e `swift test` verdes.
-- **Status:** todo
+- **Status:** done
 
 ## T-002 — ConfigStore
 - **Objetivo:** Estruturar leitura/escrita de configuração com contrato estável.

@@ -1,8 +1,14 @@
-import XCTest
+import Testing
 @testable import Core
 
-final class CoreTests: XCTestCase {
-    func testKernelBootstraps() {
-        XCTAssertNotNil(AppKernel())
+struct CoreTests {
+    @Test func kernelBootstraps() {
+        let sessionManager = SessionManager()
+        let kernel = AppKernel(sessionManager: sessionManager)
+
+        #expect(type(of: kernel.defaults) == Defaults.self)
+        #expect(type(of: kernel.configStore) == ConfigStore.self)
+        #expect(type(of: kernel.auditLog) == AuditLog.self)
+        #expect(kernel.sessionManager === sessionManager)
     }
 }
